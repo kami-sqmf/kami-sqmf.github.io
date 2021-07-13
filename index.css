@@ -1,7 +1,26 @@
 @font-face {
-    font-family: "jfopen";
-    src: url("/fonts/jf-openhuninn-1.1.woff2") format("woff2")
+    font-family: naikaifont;
+    src: url(https://cdn.jsdelivr.net/gh/max32002/naikaifont@1.0/webfont/NaikaiFont-Regular-Lite.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/max32002/naikaifont@1.0/webfont/NaikaiFont-Regular-Lite.woff) format("woff");
 }
-*{
-    font-family: jfopen;
+
+* {
+    font-family: naikaifont;
+    margin: 0;
+    border: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #4D4D89;
+    width: 100%;
+    height: 100%;
+}
+
+svg{
+    width: 100%;
+    height: 100%;
 }
